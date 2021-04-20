@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.deckCard {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 20vh;
+    height: 30vh;
+    margin: 2vh;
+    text-decoration: none;
+    color: black;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.deckName {
+    text-align: center;
+}
+
+.img {
+    width: 17vh;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
