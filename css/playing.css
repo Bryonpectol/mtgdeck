@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 45%;
+}
+
+#deck {
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 25vh;
+    height: 35vh;
+    margin: 2vh;
+}
+
+button {
+    width: 25vh;
+    margin: 2vh;
+}
+
+h3 {
+    text-align: center;
+    margin-right: 75%;
+}
+
+p {
+    text-align: center;
+    margin-right: 75%;
+}
