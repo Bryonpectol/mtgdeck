@@ -479,7 +479,6 @@ function Draw() {
 
         libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
         drawCard.src = libraryArray[RanNum];
