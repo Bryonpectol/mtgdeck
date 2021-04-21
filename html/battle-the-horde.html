@@ -11,16 +11,34 @@
     </head>
     <body>
         <div class="container">
+            <div class="dekcs">
+        <div id="graveyard">
+
+            <p id="graveyardp" class="library">Graveyard</p>
+    
+        </div>
+
         <div id="deck">
 
+            <!-- <p id="libraryp" class="library">Library</p> -->
+            <img id="deckimg" src="/media/Magic_card_back.jpg" />
+
+        </div>
         </div>
 
         
     </div>
 
     <div class="container">
-        <button>Draw</button>
-        <button>Discard</button>
+
+        <div class="dekcs">
+        <div id="battlefield">
+            <p id="battlefieldp" class="library">battlefield</p>
+        </div>
+        </div>
+
+        <button onclick="Draw()">Draw</button>
+        <button onclick="Discard()">Discard</button>
 
         <h3>Player Health</h3>
         <p id="health">20</p>
@@ -30,7 +48,7 @@
     </div>
         
         
-        <script src="/js/battle-the-horde.js" type="module"></script>
+        <script src="/js/battle-the-horde.js"></script>
         <script src="/js/player-health.js"></script>
     </body>
 </html>

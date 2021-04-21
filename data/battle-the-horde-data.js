@@ -1,9 +1,9 @@
 export const deck = [
 
     {
-        "name":"",
+        "name":"Minotaur Younghorn",
         "id":1,
-        "img":"",
+        "img":"/media/battle_the_horde/minotaur_younghorn.jpg",
     },
     {
         "name":"",

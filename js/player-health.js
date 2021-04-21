@@ -17,6 +17,11 @@ function Subtract() {
 
     playerHealth.textContent = num;
 
+    if(num <= 0 ) {
+        playerHealth.textContent = "Your Dead"
+        num = 0;
+    }
+
     console.log(playerHealth)
 }
 
