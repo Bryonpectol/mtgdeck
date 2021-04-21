@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Face The Hydra</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/playing.css">
+    </head>
+    <body>
+
+        <h3>Click the Deck to Draw Cards</h3>
+
+        <div class="container">
+            <div class="dekcs">
+        
+
+
+
+        <div id="deck">
+
+
+            <!-- <p id="libraryp" class="library">Library</p> -->
+            <button class="drawBtn" onclick="Draw()"><img id="deckimg" src="/media/Magic_card_back.jpg" /></button>
+
+        </div>
+        </div>
+
+        
+    </div>
+
+    <div class="container">
+
+        <div class="dekcs">
+        <div id="battlefield">
+            <!-- <p id="battlefieldp" class="library">battlefield</p> -->
+        </div>
+        </div>
+
+        <!-- <button onclick="Draw()">Draw</button> -->
+
+        <h3>Player Health</h3>
+        <p id="health">20</p>
+
+        <button onclick="Subtract()">Subtract Health</button>
+        <button onclick="Add()">Add Health</button>
+    </div>
+        
+        
+        <script src="/js/face-the-hydra.js"></script>
+        <script src="/js/player-health.js"></script>
+    </body>
+</html>
