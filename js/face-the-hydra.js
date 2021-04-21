@@ -2,6 +2,18 @@ let deckArray = ["/media/face_the_hydra/hydra_head.jpg","/media/face_the_hydra/h
 
 let battlefieldDiv = document.getElementById("battlefield");
 
+let graveyardDiv = document.getElementById("graveyard");
+
+graveyardDiv.style.visibility = "hidden";
+
+let graveyardBtn = document.getElementById("graveyardBtn");
+
+let hideGraveyardBtn = document.getElementById("hidegraveyardBtn");
+
+hideGraveyardBtn.style.visibility = "hidden";
+
+let graveyardArray = [];
+
 let RanNum;
 
 let number = deckArray.length;
@@ -9,6 +21,8 @@ let number = deckArray.length;
 let drawCard;
 
 let removeBtn;
+
+let Img;
 
 removeBtn.className = "removeBtn";
 
@@ -1422,607 +1436,933 @@ function Draw() {
 
     number -= 1;
 
-    console.log(deckArray + " Random Number: " + RanNum + " Deck Length: " + deckArray.length);
+    console.log(deckArray + " Random Number: " + RanNum + " Deck Length: " + deckArray.length + ".... Graveyard: " + graveyardArray + " : " + graveyardArray.length);
 
 }
 
 
 function zero() {
 
-    let Img = document.getElementById("zero");
+    Img = document.getElementById("zero");
     let zeroBtn = document.getElementById("zeroBtn");
+
+    graveyardArray.unshift(deckArray[0]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function one() {
 
-    let Img = document.getElementById("one");
+    Img = document.getElementById("one");
     let zeroBtn = document.getElementById("oneBtn");
+
+    graveyardArray.unshift(deckArray[1]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function two() {
 
-    let Img = document.getElementById("two");
+    Img = document.getElementById("two");
     let zeroBtn = document.getElementById("twoBtn");
+
+    graveyardArray.unshift(deckArray[2]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function three() {
 
-    let Img = document.getElementById("three");
+    Img = document.getElementById("three");
     let zeroBtn = document.getElementById("threeBtn");
+
+    graveyardArray.unshift(deckArray[3]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function four() {
 
-    let Img = document.getElementById("four");
+    Img = document.getElementById("four");
     let zeroBtn = document.getElementById("fourBtn");
+
+    graveyardArray.unshift(deckArray[4]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function five() {
 
-    let Img = document.getElementById("five");
+    Img = document.getElementById("five");
     let zeroBtn = document.getElementById("fiveBtn");
+
+    graveyardArray.unshift(deckArray[5]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function six() {
 
-    let Img = document.getElementById("six");
+    Img = document.getElementById("six");
     let zeroBtn = document.getElementById("sixBtn");
+
+    graveyardArray.unshift(deckArray[6]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function seven() {
 
-    let Img = document.getElementById("seven");
+    Img = document.getElementById("seven");
     let zeroBtn = document.getElementById("sevenBtn");
+
+    graveyardArray.unshift(deckArray[7]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function eight() {
 
-    let Img = document.getElementById("eight");
+    Img = document.getElementById("eight");
     let zeroBtn = document.getElementById("eightBtn");
+
+    graveyardArray.unshift(deckArray[8]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function nine() {
 
-    let Img = document.getElementById("nine");
+    Img = document.getElementById("nine");
     let zeroBtn = document.getElementById("nineBtn");
+
+    graveyardArray.unshift(deckArray[9]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function ten() {
 
-    let Img = document.getElementById("ten");
+    Img = document.getElementById("ten");
     let zeroBtn = document.getElementById("tenBtn");
+
+    graveyardArray.unshift(deckArray[10]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function eleven() {
 
-    let Img = document.getElementById("eleven");
+    Img = document.getElementById("eleven");
     let zeroBtn = document.getElementById("elevenBtn");
+
+    graveyardArray.unshift(deckArray[11]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function twelve() {
 
-    let Img = document.getElementById("twelve");
+    Img = document.getElementById("twelve");
     let zeroBtn = document.getElementById("twelveBtn");
+
+    graveyardArray.unshift(deckArray[12]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function thirteen() {
 
-    let Img = document.getElementById("thirteen");
+    Img = document.getElementById("thirteen");
     let zeroBtn = document.getElementById("thirteenBtn");
+
+    graveyardArray.unshift(deckArray[13]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fourteen() {
 
-    let Img = document.getElementById("fourteen");
+    Img = document.getElementById("fourteen");
     let zeroBtn = document.getElementById("fourteenBtn");
+
+    graveyardArray.unshift(deckArray[14]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fifteen() {
 
-    let Img = document.getElementById("fifteen");
+    Img = document.getElementById("fifteen");
     let zeroBtn = document.getElementById("fifteenBtn");
+
+    graveyardArray.unshift(deckArray[15]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function sixteen() {
 
-    let Img = document.getElementById("sixteen");
+    Img = document.getElementById("sixteen");
     let zeroBtn = document.getElementById("sixteenBtn");
+
+    graveyardArray.unshift(deckArray[16]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function seventeen() {
 
-    let Img = document.getElementById("seventeen");
+    Img = document.getElementById("seventeen");
     let zeroBtn = document.getElementById("seventeenBtn");
+
+    graveyardArray.unshift(deckArray[17]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function eighteen() {
 
-    let Img = document.getElementById("eighteen");
+    Img = document.getElementById("eighteen");
     let zeroBtn = document.getElementById("eighteenBtn");
+
+    graveyardArray.unshift(deckArray[18]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function nineteen() {
 
-    let Img = document.getElementById("nineteen");
+    Img = document.getElementById("nineteen");
     let zeroBtn = document.getElementById("nineteenBtn");
+
+    graveyardArray.unshift(deckArray[19]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function twenty() {
 
-    let Img = document.getElementById("twenty");
+    Img = document.getElementById("twenty");
     let zeroBtn = document.getElementById("twentyBtn");
+
+    graveyardArray.unshift(deckArray[20]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function twentyone() {
 
-    let Img = document.getElementById("twentyone");
+    Img = document.getElementById("twentyone");
     let zeroBtn = document.getElementById("twentyoneBtn");
+
+    graveyardArray.unshift(deckArray[21]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function twentytwo() {
 
-    let Img = document.getElementById("twentytwo");
+    Img = document.getElementById("twentytwo");
     let zeroBtn = document.getElementById("twentytwoBtn");
+
+    graveyardArray.unshift(deckArray[22]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function twentythree() {
 
-    let Img = document.getElementById("twentythree");
+    Img = document.getElementById("twentythree");
     let zeroBtn = document.getElementById("twentythreeBtn");
+
+    graveyardArray.unshift(deckArray[23]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function twentyfour() {
 
-    let Img = document.getElementById("twentyfour");
+    Img = document.getElementById("twentyfour");
     let zeroBtn = document.getElementById("twentyfourBtn");
+
+    graveyardArray.unshift(deckArray[24]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function twentyfive() {
 
-    let Img = document.getElementById("twentyfive");
+    Img = document.getElementById("twentyfive");
     let zeroBtn = document.getElementById("twentyfiveBtn");
+
+    graveyardArray.unshift(deckArray[25]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function twentysix() {
 
-    let Img = document.getElementById("twentysix");
+    Img = document.getElementById("twentysix");
     let zeroBtn = document.getElementById("twentysixBtn");
+
+    graveyardArray.unshift(deckArray[26]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function twentyseven() {
 
-    let Img = document.getElementById("twentyseven");
+    Img = document.getElementById("twentyseven");
     let zeroBtn = document.getElementById("twentysevenBtn");
+
+    graveyardArray.unshift(deckArray[27]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function twentyeight() {
 
-    let Img = document.getElementById("twentyeight");
+    Img = document.getElementById("twentyeight");
     let zeroBtn = document.getElementById("twentyeightBtn");
+
+    graveyardArray.unshift(deckArray[28]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function twentynine() {
 
-    let Img = document.getElementById("twentynine");
+    Img = document.getElementById("twentynine");
     let zeroBtn = document.getElementById("twentynineBtn");
+    
+    graveyardArray.unshift(deckArray[29]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function thirty() {
 
-    let Img = document.getElementById("thirty");
+    Img = document.getElementById("thirty");
     let zeroBtn = document.getElementById("thirtyBtn");
+
+    graveyardArray.unshift(deckArray[30]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function thirtyone() {
 
-    let Img = document.getElementById("thirtyone");
+    Img = document.getElementById("thirtyone");
     let zeroBtn = document.getElementById("thirtyoneBtn");
+
+    graveyardArray.unshift(deckArray[31]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function thirtytwo() {
 
-    let Img = document.getElementById("thirtytwo");
+    Img = document.getElementById("thirtytwo");
     let zeroBtn = document.getElementById("thirtytwoBtn");
+
+    graveyardArray.unshift(deckArray[32]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function thirtythree() {
 
-    let Img = document.getElementById("thirtythree");
+    Img = document.getElementById("thirtythree");
     let zeroBtn = document.getElementById("thirtythreeBtn");
+
+    graveyardArray.unshift(deckArray[33]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function thirtyfour() {
 
-    let Img = document.getElementById("thirtyfour");
+    Img = document.getElementById("thirtyfour");
     let zeroBtn = document.getElementById("thirtyfourBtn");
+
+    graveyardArray.unshift(deckArray[34]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function thirtyfive() {
 
-    let Img = document.getElementById("thirtyfive");
+    Img = document.getElementById("thirtyfive");
     let zeroBtn = document.getElementById("thirtyfiveBtn");
+
+    graveyardArray.unshift(deckArray[35]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function thirtysix() {
 
-    let Img = document.getElementById("thirtysix");
+    Img = document.getElementById("thirtysix");
     let zeroBtn = document.getElementById("thirtysixBtn");
+
+    graveyardArray.unshift(deckArray[36]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function thirtyseven() {
 
-    let Img = document.getElementById("thirtyseven");
+    Img = document.getElementById("thirtyseven");
     let zeroBtn = document.getElementById("thirtysevenBtn");
+
+    graveyardArray.unshift(deckArray[37]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function thirtyeight() {
 
-    let Img = document.getElementById("thirtyeight");
+    Img = document.getElementById("thirtyeight");
     let zeroBtn = document.getElementById("thirtyeightBtn");
+
+    graveyardArray.unshift(deckArray[38]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function thirtynine() {
 
-    let Img = document.getElementById("thirtynine");
+    Img = document.getElementById("thirtynine");
     let zeroBtn = document.getElementById("thirtynineBtn");
+
+    graveyardArray.unshift(deckArray[39]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function forty() {
 
-    let Img = document.getElementById("forty");
+    Img = document.getElementById("forty");
     let zeroBtn = document.getElementById("fortyBtn");
+
+    graveyardArray.unshift(deckArray[40]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fortyone() {
 
-    let Img = document.getElementById("fortyone");
+    Img = document.getElementById("fortyone");
     let zeroBtn = document.getElementById("fortyoneBtn");
+
+    graveyardArray.unshift(deckArray[41]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fortytwo() {
 
-    let Img = document.getElementById("fortytwo");
+    Img = document.getElementById("fortytwo");
     let zeroBtn = document.getElementById("fortytwoBtn");
+
+    graveyardArray.unshift(deckArray[42]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fortythree() {
 
-    let Img = document.getElementById("fortythree");
+    Img = document.getElementById("fortythree");
     let zeroBtn = document.getElementById("fortythreeBtn");
+
+    graveyardArray.unshift(deckArray[43]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fortyfour() {
 
-    let Img = document.getElementById("fortyfour");
+    Img = document.getElementById("fortyfour");
     let zeroBtn = document.getElementById("fortyfourBtn");
+
+    graveyardArray.unshift(deckArray[44]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fourtyfive() {
 
-    let Img = document.getElementById("fortyfive");
+    Img = document.getElementById("fortyfive");
     let zeroBtn = document.getElementById("fortyfiveBtn");
+
+    graveyardArray.unshift(deckArray[45]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fortysix() {
 
-    let Img = document.getElementById("fortysix");
+    Img = document.getElementById("fortysix");
     let zeroBtn = document.getElementById("fortysixBtn");
+
+    graveyardArray.unshift(deckArray[46]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fortyseven() {
 
-    let Img = document.getElementById("fortyseven");
+    Img = document.getElementById("fortyseven");
     let zeroBtn = document.getElementById("fortysevenBtn");
+
+    graveyardArray.unshift(deckArray[47]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fortyeight() {
 
-    let Img = document.getElementById("fortyeight");
+    Img = document.getElementById("fortyeight");
     let zeroBtn = document.getElementById("fortyeightBtn");
+
+    graveyardArray.unshift(deckArray[48]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fortynine() {
 
-    let Img = document.getElementById("fortynine");
+    Img = document.getElementById("fortynine");
     let zeroBtn = document.getElementById("fortynine");
+
+    graveyardArray.unshift(deckArray[49]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fifty() {
 
-    let Img = document.getElementById("fifty");
+    Img = document.getElementById("fifty");
     let zeroBtn = document.getElementById("fiftyBtn");
+
+    graveyardArray.unshift(deckArray[50]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fiftyone() {
 
-    let Img = document.getElementById("fiftyone");
+    Img = document.getElementById("fiftyone");
     let zeroBtn = document.getElementById("fiftyoneBtn");
+
+    graveyardArray.unshift(deckArray[51]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fiftytwo() {
 
-    let Img = document.getElementById("fiftytwo");
+    Img = document.getElementById("fiftytwo");
     let zeroBtn = document.getElementById("fiftytwoBtn");
+
+    graveyardArray.unshift(deckArray[52]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fiftythree() {
 
-    let Img = document.getElementById("fiftythree");
+    Img = document.getElementById("fiftythree");
     let zeroBtn = document.getElementById("fiftythreeBtn");
+
+    graveyardArray.unshift(deckArray[53]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fiftyfour() {
 
-    let Img = document.getElementById("fiftyfour");
+    Img = document.getElementById("fiftyfour");
     let zeroBtn = document.getElementById("fiftyfourBtn");
+
+    graveyardArray.unshift(deckArray[54]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fiftyfive() {
 
-    let Img = document.getElementById("fiftyfive");
+    Img = document.getElementById("fiftyfive");
     let zeroBtn = document.getElementById("fiftyfiveBtn");
+
+    graveyardArray.unshift(deckArray[55]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fiftysix() {
 
-    let Img = document.getElementById("fiftysix");
+    Img = document.getElementById("fiftysix");
     let zeroBtn = document.getElementById("fiftysixBtn");
+
+    graveyardArray.unshift(deckArray[56]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fiftyseven() {
 
-    let Img = document.getElementById("fiftyseven");
+    Img = document.getElementById("fiftyseven");
     let zeroBtn = document.getElementById("fiftysevenBtn");
+
+    graveyardArray.unshift(deckArray[57]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fiftyeight() {
 
-    let Img = document.getElementById("fiftyeight");
+    Img = document.getElementById("fiftyeight");
     let zeroBtn = document.getElementById("fiftyeightBtn");
+
+    graveyardArray.unshift(deckArray[58]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
 
 }
 
 function fiftynine() {
 
-    let Img = document.getElementById("fiftynine");
+    Img = document.getElementById("fiftynine");
     let zeroBtn = document.getElementById("fiftynineBtn");
+
+    graveyardArray.unshift(deckArray[59]);
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
+
+    graveyard();
+    hideGraveyard();
+
+}
+
+function graveyard() {
+
+    graveyardDiv.style.visibility = "visible";
+
+    let graveyardItems = Img;
+
+    graveyardItems.src = graveyardArray[0];
+
+   graveyardDiv.appendChild(graveyardItems);
+
+   hideGraveyardBtn.style.visibility = "visible";
+   graveyardBtn.style.visibility = "hidden";
+
+
+}
+
+function hideGraveyard() {
+
+    graveyardDiv.style.visibility = "hidden";
+    graveyardBtn.style.visibility = "visible";
+    hideGraveyardBtn.style.visibility = "hidden";
+
+
 
 }

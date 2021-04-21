@@ -16,13 +16,13 @@
     text-align: center;
 }
 
-#graveyard {
+/* #graveyard {
     border: solid 2px black;
     border-radius: 10px;
     width: 25vh;
     height: 35vh;
     margin: 2vh;
-}
+} */
 
 .cards {
     width: 25vh;
