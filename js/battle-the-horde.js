@@ -1,809 +1,705 @@
-let libraryArray = ["/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/reckless_minotaur.jpg","/media/battle_the_horde/minotaur_goreseeker.jpg","/media/battle_the_horde/phoberos_reaver.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg",]
-let graveyardArray = [];
-let battlefieldArray = [];
 
-let testArray = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
-
-let libraryDiv = document.getElementById("deck");
+let deckArray = ["/media/battle_the_horde/minotaur_goreseeker.jpg","/media/battle_the_horde/minotaur_goreseeker.jpg","/media/battle_the_horde/minotaur_goreseeker.jpg","/media/battle_the_horde/minotaur_goreseeker.jpg","/media/battle_the_horde/minotaur_goreseeker.jpg","/media/battle_the_horde/minotaur_goreseeker.jpg","/media/battle_the_horde/minotaur_goreseeker.jpg","/media/battle_the_horde/minotaur_goreseeker.jpg","/media/battle_the_horde/minotaur_goreseeker.jpg","/media/battle_the_horde/minotaur_goreseeker.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/minotaur_younghorn.jpg","/media/battle_the_horde/phoberos_reaver.jpg","/media/battle_the_horde/phoberos_reaver.jpg","/media/battle_the_horde/phoberos_reaver.jpg","/media/battle_the_horde/phoberos_reaver.jpg","/media/battle_the_horde/phoberos_reaver.jpg","/media/battle_the_horde/phoberos_reaver.jpg","/media/battle_the_horde/phoberos_reaver.jpg","/media/battle_the_horde/phoberos_reaver.jpg","/media/battle_the_horde/phoberos_reaver.jpg","/media/battle_the_horde/phoberos_reaver.jpg","/media/battle_the_horde/reckless_minotaur.jpg","/media/battle_the_horde/reckless_minotaur.jpg","/media/battle_the_horde/reckless_minotaur.jpg","/media/battle_the_horde/reckless_minotaur.jpg","/media/Battle_the_horde/mogiss_chosen.jpg","/media/Battle_the_horde/mogiss_chosen.jpg","/media/Battle_the_horde/mogiss_chosen.jpg","/media/Battle_the_horde/mogiss_chosen.jpg",];
 
 let battlefieldDiv = document.getElementById("battlefield");
 
 let RanNum;
 
-let drawCard;
+let number = deckArray.length;
 
+let drawCard;
 
 function Draw() {
 
-    RanNum = Math.floor(Math.random() * libraryArray.length);
+    RanNum = Math.floor(Math.random() * number);
 
     if(RanNum == 0) {
 
-        battlefieldArray.push("/media/battle_the_horde/minotaur_younghorn.jpg");
-
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[0];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(0, 1);
 
     }
     
     if(RanNum == 1) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[1];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(1, 1);
 
     }
 
     if(RanNum == 2) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[2];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(2, 1);
 
     }
 
     if(RanNum == 3) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[3];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(3, 1);
 
     }
 
     if(RanNum == 4) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[4];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(4, 1);
 
     }
 
     if(RanNum == 5) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[5];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(5, 1);
+
 
     }
 
     if(RanNum == 6) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[6];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(6, 1);
+
 
     }
 
     if(RanNum == 7) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[7];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(7, 1);
+
 
     }
 
     if(RanNum == 8) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[8];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(8, 1);
+
 
     }
 
     if(RanNum == 9) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[9];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(9, 1);
+
 
     }
 
     if(RanNum == 10) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[10];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(10, 1);
+
 
     }
 
     if(RanNum == 11) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[11];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(11, 1);
+
 
     }
 
     if(RanNum == 12) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[12];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(12, 1);
+
 
     }
 
     if(RanNum == 13) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[13];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(13, 1);
+
 
     }
 
     if(RanNum == 14) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[14];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(14, 1);
 
     }
     
     if(RanNum == 15) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[15];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(15, 1);
 
     }
     
     if(RanNum == 16) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[16];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(16, 1);
 
     }
     
     if(RanNum == 17) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[17];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(17, 1);
 
     }
     
     if(RanNum == 18) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[18];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(18, 1);
 
     }
     
     if(RanNum == 19) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[19];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(19, 1);
 
     }
     
     if(RanNum == 20) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[20];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(20, 1);
 
     }
     
     if(RanNum == 21) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[21];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(21, 1);
 
     }
     
     if(RanNum == 22) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[22];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(22, 1);
 
     }
     
     if(RanNum == 23) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[23];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(23, 1);
 
     }
     
     if(RanNum == 24) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[24];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(24, 1);
 
     }
     
     if(RanNum == 25) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[25];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(25, 1);
 
     }
     
     if(RanNum == 26) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[26];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(26, 1);
 
     }
 
     
     if(RanNum == 27) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[27];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(27, 1);
 
     }
     
     if(RanNum == 28) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[28];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(28, 1);
 
     }
     
     if(RanNum == 29) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[29];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(29, 1);
 
     }
     
     if(RanNum == 30) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[30];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(30, 1);
 
     }
     
     if(RanNum == 31) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[31];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(31, 1);
 
     }
     
     if(RanNum == 32) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[32];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(32, 1);
 
     }
     
     if(RanNum == 33) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[33];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(33, 1);
 
     }
     
     if(RanNum == 34) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[34];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(34, 1);
 
     }
     
     if(RanNum == 35) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[35];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(35, 1);
 
     }
     
     if(RanNum == 36) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[36];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(36, 1);
 
     }
     
     if(RanNum == 37) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[37];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(37, 1);
 
     }
     
     if(RanNum == 38) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[38];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(38, 1);
 
     }
     
     if(RanNum == 39) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[39];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(39, 1);
 
     }
 
     
     if(RanNum == 40) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[40];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(40, 1);
 
     }
     
     if(RanNum == 41) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[41];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(41, 1);
 
     }
     
     if(RanNum == 42) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[42];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(42, 1);
 
     }
     
     if(RanNum == 43) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[43];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(43, 1);
 
     }
     
     if(RanNum == 44) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[44];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(44, 1);
 
     }
     
     if(RanNum == 45) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[45];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(45, 1);
 
     }
     
     if(RanNum == 46) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[46];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(46, 1);
 
     }
     
     if(RanNum == 47) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[47];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(47, 1);
 
     }
     
     if(RanNum == 48) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[48];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(48, 1);
 
     }
     
     if(RanNum == 49) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[49];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(49, 1);
 
     }
     
     if(RanNum == 50) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[50];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(50, 1);
 
     }
     
     if(RanNum == 51) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[51];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(4, 1);
 
     }
     
     if(RanNum == 52) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[52];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(52, 1);
 
     }
     
     if(RanNum == 53) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[53];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(53, 1);
 
     }
     
     if(RanNum == 54) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[54];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(54, 1);
 
     }
     
     if(RanNum == 55) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[55];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(55, 1);
 
     }
     
     if(RanNum == 56) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[56];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(56, 1);
 
     }
     
     if(RanNum == 57) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[57];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(57, 1);
 
     }
     
     if(RanNum == 58) {
 
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[58];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(58, 1);
 
     }
     
     if(RanNum == 59) {
 
-        battlefieldArray.push("/media/battle_the_horde/minotaur_younghorn.jpg");
-
-        libraryArray.slice(RanNum, 1);
         drawCard = document.createElement("img");
-
         drawCard.className = "cards";
 
-        drawCard.src = libraryArray[RanNum];
+        drawCard.src = deckArray[59];
 
-        battlefieldDiv.appendChild(drawCard);
+        deckArray.splice(59, 1);
 
     }
+
+
+    // if number = -1
+
+    if(number < 0) {
+        let Win = document.createElement("p");
+
+        Win.textContext = "You Win!"
+
+        battlefieldDiv.appendChild(Win);
+    }
+
+    battlefieldDiv.appendChild(drawCard);
+
+    number -= 1;
     
-    console.log(libraryArray + libraryArray.length + " : " + battlefieldArray)
-    console.log(RanNum);
+    console.log(RanNum + " : " + number + " : " + deckArray.length);
 
 }
 
