@@ -1920,7 +1920,7 @@ function fortyeight() {
 function fortynine() {
 
     let Img = document.getElementById("fortynine");
-    let zeroBtn = document.getElementById("fortynine");
+    let zeroBtn = document.getElementById("fortynineBtn");
 
     battlefieldDiv.removeChild(Img);
     battlefieldDiv.removeChild(zeroBtn);
