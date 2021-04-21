@@ -1436,6 +1436,9 @@ function Draw() {
 
     number -= 1;
 
+    graveyard();
+    hideGraveyard();
+
     console.log(deckArray + " Random Number: " + RanNum + " Deck Length: " + deckArray.length + ".... Graveyard: " + graveyardArray + " : " + graveyardArray.length);
 
 }
@@ -2346,8 +2349,6 @@ function graveyard() {
     graveyardDiv.style.visibility = "visible";
 
     let graveyardItems = Img;
-
-    graveyardItems.src = graveyardArray[0];
 
    graveyardDiv.appendChild(graveyardItems);
 
