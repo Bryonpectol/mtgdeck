@@ -22,6 +22,8 @@ let drawCard;
 
 let removeBtn;
 
+let addBackBtn;
+
 let Img;
 
 removeBtn.className = "removeBtn";
@@ -2182,7 +2184,7 @@ function fortyeight() {
 function fortynine() {
 
     Img = document.getElementById("fortynine");
-    let zeroBtn = document.getElementById("fortynine");
+    let zeroBtn = document.getElementById("fortynineBtn");
 
     graveyardArray.unshift(deckArray[49]);
 
