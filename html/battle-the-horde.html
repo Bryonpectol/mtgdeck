@@ -10,18 +10,20 @@
         <link rel="stylesheet" href="/css/playing.css">
     </head>
     <body>
+
+        <h3>Click the Deck to Draw Cards</h3>
+
         <div class="container">
             <div class="dekcs">
-        <div id="graveyard">
+        
 
-            <!-- <p id="graveyardp" class="library">Graveyard</p> -->
-    
-        </div>
+
 
         <div id="deck">
 
+
             <!-- <p id="libraryp" class="library">Library</p> -->
-            <img id="deckimg" src="/media/Magic_card_back.jpg" />
+            <button class="drawBtn" onclick="Draw()"><img id="deckimg" src="/media/Magic_card_back.jpg" /></button>
 
         </div>
         </div>
@@ -37,7 +39,7 @@
         </div>
         </div>
 
-        <button onclick="Draw()">Draw</button>
+        <!-- <button onclick="Draw()">Draw</button> -->
 
         <h3>Player Health</h3>
         <p id="health">20</p>
