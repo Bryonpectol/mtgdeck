@@ -32,7 +32,7 @@
     border: solid 2px black;
     border-radius: 10px;
     width: 250vh;
-    height: 35vh;
+    /* height: 45vh; */
     margin: 2vh;
 }
 
@@ -43,10 +43,14 @@
     justify-content: center;
 }
 
-button {
+button .removeBtn {
+    width: 10vh;
+}
+
+/* button {
     width: 25vh;
     margin: 2vh;
-}
+} */
 
 h3 {
     /* text-align: center; */
