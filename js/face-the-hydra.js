@@ -3036,17 +3036,31 @@ function addBackZero() {
 
     console.log("0");
 
+    deckArray.push(graveyardArray[0]);
+
+    graveyardArray.slice(0,1);
+
+    console.log(graveyardArray);
+
 }
 
 function addBackOne() {
 
     console.log("1");
 
+    deckArray.push(graveyardArray[1]);
+
+    console.log(graveyardArray + " : " + deckArray);
+
 }
 
 function addBackTwo() {
 
     console.log("2");
+
+    deckArray.push(graveyardArray[2]);
+
+    console.log(graveyardArray + " : " + deckArray);
 
 }
 
