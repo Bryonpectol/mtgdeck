@@ -1,4 +1,4 @@
-let deckArray = ["/media/face_the_hydra/hydra_head.jpg","/media/face_the_hydra/hydra_head.jpg","/media/face_the_hydra/hydra_head.jpg","/media/face_the_hydra/hydra_head.jpg","/media/face_the_hydra/hydra_head.jpg","/media/face_the_hydra/hydra_head.jpg","/media/face_the_hydra/hydra_head.jpg","/media/face_the_hydra/hydra_head.jpg","/media/face_the_hydra/hydra_head.jpg","/media/face_the_hydra/hydra_head.jpg","/media/face_the_hydra/hydra_head.jpg","/media/face_the_hydra/ravenous_brute_head.jpg","/media/face_the_hydra/ravenous_brute_head.jpg","/media/face_the_hydra/ravenous_brute_head.jpg","/media/face_the_hydra/ravenous_brute_head.jpg","/media/face_the_hydra/savage_vigor_head.jpg","/media/face_the_hydra/snapping_fang_head.jpg","/media/face_the_hydra/shrieking_titan_head.jpg","/media/face_the_hydra/disorienting_glower.jpg","/media/face_the_hydra/disorienting_glower.jpg","/media/face_the_hydra/disorienting_glower.jpg","/media/face_the_hydra/disorienting_glower.jpg","/media/face_the_hydra/disorienting_glower.jpg","/media/face_the_hydra/distract_the_hydra.jpg","/media/face_the_hydra/distract_the_hydra.jpg","/media/face_the_hydra/distract_the_hydra.jpg","/media/face_the_hydra/distract_the_hydra.jpg","/media/face_the_hydra/distract_the_hydra.jpg","/media/face_the_hydra/grown_from_the_stump.jpg","/media/face_the_hydra/grown_from_the_stump.jpg","/media/face_the_hydra/grown_from_the_stump.jpg","/media/face_the_hydra/grown_from_the_stump.jpg","/media/face_the_hydra/hydras_impenetrable_hide.jpg","/media/face_the_hydra/hydras_impenetrable_hide.jpg","/media/face_the_hydra/hydras_impenetrable_hide.jpg","/media/face_the_hydra/hydras_impenetrable_hide.jpg","/media/face_the_hydra/neck_tangle.jpg","/media/face_the_hydra/neck_tangle.jpg","/media/face_the_hydra/neck_tangle.jpg","/media/face_the_hydra/noxious_hydra_breath.jpg","/media/face_the_hydra/noxious_hydra_breath.jpg","/media/face_the_hydra/noxious_hydra_breath.jpg","/media/face_the_hydra/noxious_hydra_breath.jpg","/media/face_the_hydra/strike_the_weak_spot.jpg","/media/face_the_hydra/strike_the_weak_spot.jpg","/media/face_the_hydra/swallow_the_hero_whole.jpg","/media/face_the_hydra/swallow_the_hero_whole.jpg","/media/face_the_hydra/swallow_the_hero_whole.jpg","/media/face_the_hydra/swallow_the_hero_whole.jpg","/media/face_the_hydra/swallow_the_hero_whole.jpg","/media/face_the_hydra/torn_between_heads.jpg","/media/face_the_hydra/torn_between_heads.jpg","/media/face_the_hydra/torn_between_heads.jpg","/media/face_the_hydra/torn_between_heads.jpg","/media/face_the_hydra/unified_lunge.jpg","/media/face_the_hydra/unified_lunge.jpg","/media/face_the_hydra/unified_lunge.jpg","/media/face_the_hydra/unified_lunge.jpg","/media/face_the_hydra/unified_lunge.jpg","/media/face_the_hydra/unified_lunge.jpg",];
+let deckArray = ["/media/face_the_hydra/hydra_head.jpg", "/media/face_the_hydra/hydra_head.jpg", "/media/face_the_hydra/hydra_head.jpg", "/media/face_the_hydra/hydra_head.jpg", "/media/face_the_hydra/hydra_head.jpg", "/media/face_the_hydra/hydra_head.jpg", "/media/face_the_hydra/hydra_head.jpg", "/media/face_the_hydra/hydra_head.jpg", "/media/face_the_hydra/hydra_head.jpg", "/media/face_the_hydra/hydra_head.jpg", "/media/face_the_hydra/hydra_head.jpg", "/media/face_the_hydra/ravenous_brute_head.jpg", "/media/face_the_hydra/ravenous_brute_head.jpg", "/media/face_the_hydra/ravenous_brute_head.jpg", "/media/face_the_hydra/ravenous_brute_head.jpg", "/media/face_the_hydra/savage_vigor_head.jpg", "/media/face_the_hydra/snapping_fang_head.jpg", "/media/face_the_hydra/shrieking_titan_head.jpg", "/media/face_the_hydra/disorienting_glower.jpg", "/media/face_the_hydra/disorienting_glower.jpg", "/media/face_the_hydra/disorienting_glower.jpg", "/media/face_the_hydra/disorienting_glower.jpg", "/media/face_the_hydra/disorienting_glower.jpg", "/media/face_the_hydra/distract_the_hydra.jpg", "/media/face_the_hydra/distract_the_hydra.jpg", "/media/face_the_hydra/distract_the_hydra.jpg", "/media/face_the_hydra/distract_the_hydra.jpg", "/media/face_the_hydra/distract_the_hydra.jpg", "/media/face_the_hydra/grown_from_the_stump.jpg", "/media/face_the_hydra/grown_from_the_stump.jpg", "/media/face_the_hydra/grown_from_the_stump.jpg", "/media/face_the_hydra/grown_from_the_stump.jpg", "/media/face_the_hydra/hydras_impenetrable_hide.jpg", "/media/face_the_hydra/hydras_impenetrable_hide.jpg", "/media/face_the_hydra/hydras_impenetrable_hide.jpg", "/media/face_the_hydra/hydras_impenetrable_hide.jpg", "/media/face_the_hydra/neck_tangle.jpg", "/media/face_the_hydra/neck_tangle.jpg", "/media/face_the_hydra/neck_tangle.jpg", "/media/face_the_hydra/noxious_hydra_breath.jpg", "/media/face_the_hydra/noxious_hydra_breath.jpg", "/media/face_the_hydra/noxious_hydra_breath.jpg", "/media/face_the_hydra/noxious_hydra_breath.jpg", "/media/face_the_hydra/strike_the_weak_spot.jpg", "/media/face_the_hydra/strike_the_weak_spot.jpg", "/media/face_the_hydra/swallow_the_hero_whole.jpg", "/media/face_the_hydra/swallow_the_hero_whole.jpg", "/media/face_the_hydra/swallow_the_hero_whole.jpg", "/media/face_the_hydra/swallow_the_hero_whole.jpg", "/media/face_the_hydra/swallow_the_hero_whole.jpg", "/media/face_the_hydra/torn_between_heads.jpg", "/media/face_the_hydra/torn_between_heads.jpg", "/media/face_the_hydra/torn_between_heads.jpg", "/media/face_the_hydra/torn_between_heads.jpg", "/media/face_the_hydra/unified_lunge.jpg", "/media/face_the_hydra/unified_lunge.jpg", "/media/face_the_hydra/unified_lunge.jpg", "/media/face_the_hydra/unified_lunge.jpg", "/media/face_the_hydra/unified_lunge.jpg", "/media/face_the_hydra/unified_lunge.jpg",];
 
 let battlefieldDiv = document.getElementById("battlefield");
 
@@ -302,7 +302,7 @@ function Draw() {
         drawCard.src = deckArray[11];
 
         deckArray.splice(11, 1);
-        
+
         removeBtn = document.createElement("button");
 
         removeBtn.id = "elevenBtn";
@@ -466,7 +466,7 @@ function Draw() {
         drawCard.src = deckArray[18];
 
         deckArray.splice(18, 1);
-        
+
         removeBtn = document.createElement("button");
 
         removeBtn.id = "eighteenBtn";
@@ -1885,7 +1885,7 @@ function twentynine() {
 
     Img = document.getElementById("twentynine");
     let zeroBtn = document.getElementById("twentynineBtn");
-    
+
     graveyardArray.unshift(deckArray[29]);
 
     battlefieldDiv.removeChild(Img);
@@ -2121,7 +2121,7 @@ function fortyfour() {
 
 }
 
-function fourtyfive() {
+function fortyfive() {
 
     Img = document.getElementById("fortyfive");
     let zeroBtn = document.getElementById("fortyfiveBtn");
@@ -2352,10 +2352,674 @@ function graveyard() {
 
     let graveyardItems = Img;
 
-   graveyardDiv.appendChild(graveyardItems);
 
-   hideGraveyardBtn.style.visibility = "visible";
-   graveyardBtn.style.visibility = "hidden";
+    graveyardDiv.appendChild(graveyardItems);
+
+    hideGraveyardBtn.style.visibility = "visible";
+    graveyardBtn.style.visibility = "hidden";
+
+
+    if(graveyardItems.id === "zero") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackZero()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+    
+    if(graveyardItems.id === "one") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackOne()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "two") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackTwo()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "three") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackThree()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "four") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFour()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "five") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFive()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "six") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackSix()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "seven") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackSeven()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "eight") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackEight()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "nine") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackNine()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "ten") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackTen()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "eleven") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackEleven()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "twelve") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackTwelve()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "thirteen") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackThirteen()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fourteen") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFourteen()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fifteen") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFifteen()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "sixteen") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackSixteen)");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "seventeen") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackSeventeen()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "eighteen") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackEighteen()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "nineteen") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackNineteen()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "twenty") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackTwenty()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "twentyone") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackTwentyone()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "twentytwo") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackTwentytwo()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "twentythree") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackTwentythree()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "twentyfour") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackTwentyfour()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "twentyfive") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackTwentyfive()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "twentysix") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackTwentysix()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "twentyseven") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackTwentyseven()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "twentyeight") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackTwentyeight()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "twentynine") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackTwentynine()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "thirty") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackThirty()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "thirtyone") {
+       
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackThirtyone()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "thirtytwo") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackThirtytwo()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "thirtythree") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackThirtythree()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "thirtyfour") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackThirtyfour()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "thirtyfive") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackThirtyfive()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "thirtysix") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackThirtysix()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "thirtyseven") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackThirtyseven()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "thirtyeight") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackThirtyeight()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "thirtynine") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackThirtynine()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "forty") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackForty()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fortyone") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFortyone()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fortytwo") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFortytwo()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fortythree") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFortythree()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fortyfour") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFortyfour()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fortyfive") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFortyfive()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fortysix") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFortysix()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fortyseven") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFortyseven()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fortyeight") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFortyeight()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fortynine") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFortynine()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fifty") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFifty()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fiftyone") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFiftyone()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fiftytwo") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFiftytwo()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fiftythree") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFiftythree()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fiftyfour") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFiftyfour()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fiftyfive") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFiftyfive()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fiftysix") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFiftysix()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fiftyseven") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFiftyseven()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fiftyeight") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFiftyeight()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
+    if(graveyardItems.id === "fiftynine") {
+        let addBackzero = document.createElement("button");
+
+        addBackzero.setAttribute("onclick", "addBackFiftynine()");
+        addBackzero.style.cursor = "pointer";
+
+        addBackzero.textContent = "Add Back";
+
+        graveyardDiv.appendChild(addBackzero);
+    }
+
 
 
 }
@@ -2366,6 +3030,364 @@ function hideGraveyard() {
     graveyardBtn.style.visibility = "visible";
     hideGraveyardBtn.style.visibility = "hidden";
 
+}
 
+function addBackZero() {
+
+    console.log("0");
+
+}
+
+function addBackOne() {
+
+    console.log("1");
+
+}
+
+function addBackTwo() {
+
+    console.log("2");
+
+}
+
+function addBackThree() {
+
+    console.log("3");
+
+}
+
+function addBackFour() {
+
+    console.log("4");
+
+}
+
+function addBackFive() {
+
+    console.log("5");
+
+}
+
+function addBackSix() {
+
+    console.log("6");
+
+}
+
+function addBackSeven() {
+
+    console.log("7");
+
+}
+
+function addBackEight() {
+
+    console.log("8");
+
+}
+
+function addBackNine() {
+
+    console.log("9");
+
+}
+
+function addBackTen() {
+
+    console.log("10");
+
+}
+
+function addBackEleven() {
+
+    console.log("11");
+
+}
+
+function addBackTwelve() {
+
+    console.log("12");
+
+}
+
+function addBackThirteen() {
+
+    console.log("13");
+
+}
+
+function addBackFourteen() {
+
+    console.log("14");
+
+}
+
+function addBackFifteen() {
+
+    console.log("15");
+
+}
+
+function addBackSixteen() {
+
+    console.log("16");
+
+}
+
+function addBackSeventeen() {
+
+    console.log("17");
+
+}
+
+function addBackEighteen() {
+
+    console.log("18");
+
+}
+
+function addBackNineteen() {
+
+    console.log("19");
+
+}
+
+function addBackTwenty() {
+
+    console.log("20");
+
+}
+
+function addBackTwentyone() {
+
+    console.log("21");
+
+}
+
+function addBackTwentytwo() {
+
+    console.log("22");
+
+}
+
+function addBackTwentythree() {
+
+    console.log("23");
+
+}
+
+function addBackTwentyfour() {
+
+    console.log("24");
+
+}
+
+function addBackTwentyfive() {
+
+    console.log("25");
+
+}
+
+function addBackTwentySix() {
+
+    console.log("26");
+
+}
+
+function addBackTwentyseven() {
+
+    console.log("27");
+
+}
+
+function addBackTwentyeight() {
+
+    console.log("28");
+
+}
+
+function addBackTwentynine() {
+
+    console.log("29");
+
+}
+
+function addBackThirty() {
+
+    console.log("30");
+
+}
+
+function addBackThirtyone() {
+
+    console.log("31");
+
+}
+
+function addBackThirtytwo() {
+
+    console.log("32");
+
+}
+
+function addBackThirtythree() {
+
+    console.log("33");
+
+}
+
+function addBackThirtyfour() {
+
+    console.log("34");
+
+}
+
+function addBackThirtyfive() {
+
+    console.log("35");
+
+}
+
+function addBackThirtysix() {
+
+    console.log("36");
+
+}
+
+function addBackThirtyseven() {
+
+    console.log("37");
+
+}
+
+function addBackThirtyeight() {
+
+    console.log("38");
+
+}
+
+function addBackThirtynine() {
+
+    console.log("39");
+
+}
+
+function addBackForty() {
+
+    console.log("40");
+
+}
+
+function addBackFortyone() {
+
+    console.log("41");
+
+}
+
+function addBackFortytwo() {
+
+    console.log("42");
+
+}
+
+function addBackFortythree() {
+
+    console.log("43");
+
+}
+
+function addBackFortyfour() {
+
+    console.log("44");
+
+}
+
+function addBackFprtyfive() {
+
+    console.log("45");
+
+}
+
+function addBackFortysix() {
+
+    console.log("46");
+
+}
+
+function addBackFortyseven() {
+
+    console.log("47");
+
+}
+
+function addBackFprtyeight() {
+
+    console.log("48");
+
+}
+
+function addBackFortynine() {
+
+    console.log("49");
+
+}
+
+function addBackFifty() {
+
+    console.log("50");
+
+}
+
+function addBackFiftyone() {
+
+    console.log("51");
+
+}
+
+function addBackFiftytwo() {
+
+    console.log("52");
+
+}
+
+function addBackFiftythree() {
+
+    console.log("53");
+
+}
+
+function addBackFiftyfour() {
+
+    console.log("54");
+
+}
+
+function addBackFiftyfive() {
+
+    console.log("55");
+
+}
+
+function addBackFiftysix() {
+
+    console.log("56");
+
+}
+
+function addBackFiftyseven() {
+
+    console.log("57");
+
+}
+
+function addBackFiftyeight() {
+
+    console.log("58");
+
+}
+
+function addBackFiftynine() {
+
+    console.log("59");
 
 }
